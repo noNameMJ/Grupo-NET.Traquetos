@@ -3,7 +3,7 @@ En este repositorio se encuentran los trabajos realizados para la asignatura _Ar
 
 ## Integrantes
 
-![noNameMJ](https://drive.google.com/file/d/1Hv_AWJZfE2QxDZvxGoQ95f4DnPirb2jQ/view?usp=drive_link)
+![noNameMJ](/Images/noNameMJ.jpg)
 
 Marbin Javier Arévalo Guerrero _(2210053)_:
 + 20 años de edad.
