@@ -1,4 +1,4 @@
-# GRUPO _NET-TRAQUETOS_
+# GRUPO NET-TRAQUETOS
 En este repositorio se encuentran los trabajos realizados para la asignatura "Arquitectura de computadores" del grupo D1.
 
 ## Integrantes
