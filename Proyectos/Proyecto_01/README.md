@@ -19,5 +19,5 @@ Construir las siguientes compuertas lógicas:
 + Mux8Way16
 + DMux4Way
 + DMux8Way
-  
+
 Se usa exclusivamente la compuerta primitiva **_Nand_** para construir las demás compuertas.
