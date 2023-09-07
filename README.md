@@ -2,9 +2,7 @@
 En este repositorio se encuentran los trabajos realizados para la asignatura _Arquitectura de computadores_ del grupo _D1_.
 
 ## Integrantes
-
-![noNameMJ](/Images/noNameMJ.jpg){width='100px'}
-
+<img src="/Images/noNameMJ.jpg" width="40%" heigth="60%">
 Marbin Javier Arévalo Guerrero _(2210053)_:
 + 20 años de edad.
 + Estudiante de sexto semestre de Ingeniería de Sistemas de la Universidad Industrial de Santander.
