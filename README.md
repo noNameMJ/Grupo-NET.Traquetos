@@ -3,6 +3,7 @@ En este repositorio se encuentran los trabajos realizados para la asignatura _Ar
 
 ## Integrantes
 Marbin Javier Arévalo Guerrero **_(2210053)_**
++ 20 años de edad.
 + Estudiante de sexto semestre de Ingeniería de Sistemas de la Universidad Industrial de Santander.
-+ 19 años de edad.
++ Conocimientos en lenguajes como C, C++, C#, JAVA, Python.
 + Entusiasta del ensamblaje de computadores y el desarrolo de software.
