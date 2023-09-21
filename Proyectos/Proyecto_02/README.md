@@ -41,7 +41,7 @@ Dado que estas instrucciones se aplican en secuencia, primero se aplican "zx" y 
 
 Podemos notar que un multiplexor funciona como una estructura condicional en programación, donde si es verdadero, realiza una acción, y si es falso, realiza otra. Para implementarlo, primero calculamos todas las posibles salidas. En el caso de "zx", calculamos "x" y una fila de ceros. Luego, pasamos estos valores calculados al multiplexor y elegimos uno de ellos en función del selector "zx". Realizamos un proceso similar para "zy", "nx", "ny", "f" y "no", organizándolos en forma de árbol.
 
-<img src="/images/alu.png">
+<img src="/Images/alu.png">
 
 Finalmente, consideramos dos salidas adicionales, "zr" y "ng". Para "zr", simplemente verificamos si alguno de los bits en la salida es igual a 1 usando una operación OR en cadena (usando "or8way"). Luego, negamos el resultado. Esto significa que si al menos uno de los bits es 1, la salida es falsa; de lo contrario, es verdadera.
 
