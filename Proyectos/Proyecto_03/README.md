@@ -1,4 +1,4 @@
-#Proyecto 3: a & b
+# Proyecto 3: a & b
 
 ## Bit
 La tercera práctica se inicia con la función más elemental para la creación de registros en una memoria: guardar un solo bit. El propósito de este chip es precisamente ese, almacenar el valor de un bit de entrada "in" en la salida "out". Además, el dato almacenado en "out" solo cambia cuando el reloj (clock) predefinido del sistema alcanza un nivel alto, como se muestra en la figura a continuación.
