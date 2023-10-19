@@ -1,6 +1,6 @@
 # FILL
 
-Este programa verifica continuamente la entrada de teclado y llena la pantalla de negro cuando se presiona una tecla y la borra cuando no se presiona ninguna tecla.
+Este programa parece ser un código en lenguaje ensamblador que verifica constantemente la entrada de teclado y, dependiendo de si se presiona una tecla o no, llena la pantalla de negro o la borra. Aquí hay un resumen de lo que hace:
 
 #### Inicialización (BEGIN)
 1. `@24576`: El programa establece la dirección de memoria en 24576 para la entrada de teclado. (lo mismo se puede hacer con `@screen`)
