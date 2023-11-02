@@ -1,0 +1,17 @@
+## MEMORY
+El chip "Memory" desempeña un papel crítico al ofrecer acceso a todas las direcciones de memoria disponibles en la computadora. Lo que hace que este chip sea especialmente poderoso es que combina en uno solo las funcionalidades de tres chips de nivel inferior: Ram 16, encargado de la gestión de la memoria RAM, junto con componentes que representan la pantalla y el teclado. Estos elementos ya están incorporados en el chip "Memory", lo que elimina la necesidad de construirlos por separado y simplifica significativamente la estructura general del sistema.
+Para dirigir y gestionar los datos de manera eficiente, el chip "Memory" emplea compuertas lógicas clave, como DMux4Way, Mux4Way16 y Or. Estas compuertas son esenciales para tomar decisiones sobre qué datos leer o escribir en función de las señales de control y las direcciones de memoria proporcionadas.
+
+![image](https://github.com/jorge1b3/G_Poject/assets/131718783/83755cb2-128f-4745-bb66-41273939c1e4)
+
+## CPU
+La unidad central de procesamiento (CPU) en la arquitectura de una computadora desempeña un papel esencial al ejecutar las instrucciones de los programas cargados actualmente. Estas instrucciones proporcionan a la CPU la información sobre los cálculos que debe realizar, los registros que debe acceder y modificar, y las siguientes instrucciones que debe buscar y ejecutar. Para llevar a cabo estas tareas, la CPU se basa en tres componentes principales de hardware: la Unidad Aritmético-Lógica (ALU), implementada en el proyecto número dos; un conjunto de registros; y una unidad de control, que se exploran en el proyecto número tres.
+La CPU en la plataforma Hack está diseñada para ejecutar instrucciones de 16 bits, como se especifica en el lenguaje de máquina presentado en el capítulo 4 del proyecto. Además, esta CPU está diseñada para estar conectada a dos módulos de memoria distintos: una memoria de instrucciones, de donde obtiene las instrucciones para su ejecución, y una memoria de datos, desde la cual puede leer y escribir valores de datos. Esta interconexión entre la CPU y las memorias es fundamental para el funcionamiento integral del sistema computacional.
+
+![image](https://github.com/jorge1b3/G_Poject/assets/131718783/b05ab75c-6fd5-4a37-9425-9a4d69fdf22a)
+
+## COMPUTER
+Este ciclo representa el funcionamiento fundamental del chip computer, que es esencial para ejecutar programas almacenados en la memoria ROM. En el ciclo del contenido de la memoria de entradas, primero se realiza una lectura de la memoria y se almacena en la variable "memoryOut". A continuación, la instrucción almacenada en el ROM se recupera y se guarda en la variable "ROMInstruction". La CPU procede a ejecutar las instrucciones contenidas en "ROMInstruction", utilizando el valor previamente almacenado en "memoryOut". Además de ejecutar las instrucciones, la CPU también actualiza su estado interno, lo que incluye la gestión del contador de programas (PC) y la dirección de la memoria (AddressM).
+Finalmente, el resultado de la ejecución de las instrucciones se almacena en la variable "outM" y se escribe en la memoria si el indicador de escritura en memoria "writeM" está activado. Este ciclo se repite de manera continua, lo que permite la ejecución de los programas almacenados en la memoria ROM de la computadora.
+
+![image](https://github.com/jorge1b3/G_Poject/assets/131718783/13311b51-5f23-4158-a454-c60578d648ef)
